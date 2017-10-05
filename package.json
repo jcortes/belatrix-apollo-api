@@ -1,0 +1,32 @@
+{
+  "name": "belatrix-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node api/index.js",
+    "dev": "nodemon api/index.js --watch api --exec babel-node"
+  },
+  "keywords": [],
+  "author": "Jorge Cortes <jacortesmahmud@gmail.com> (http://jcortes.github.io)",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^1.1.2",
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "graphql": "^0.11.6",
+    "graphql-tools": "^1.2.3",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "nodemon": "^1.12.1"
+  }
+}
